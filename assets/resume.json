@@ -1,0 +1,69 @@
+{
+  "Experience": [
+    {
+      "company": "MageHost",
+      "title": "DevOps Engineering - Intern",
+      "location": "Delhi",
+      "years": "April 2019 - till now"
+    }
+  ],
+  "Education": [
+    {
+      "Level": "Class 10th",
+      "Percentage": "Let's not talk about it"
+    }
+  ],
+  "Tech stack": [
+    {
+      "Skill": "Frontend",
+      "Frameworks": "React.js/ Angularjs"
+    },
+    {
+      "Skill": "Backend",
+      "Frameworks": "Node.js, GraphQl, Firebase, Flask"
+    },
+    {
+      "Skill": "Databases",
+      "Frameworks": "MongoDB, Firebase, Sql"
+    },
+    {
+      "Skill": "Ops",
+      "Frameworks": "Lalala"
+    }
+  ],
+  "Achievments": [
+    {
+      "name": "Optional Section",
+      "description": "Whatever"
+    }
+  ],
+  "Projects": [
+    {
+      "name": "Test",
+      "link": "mmm.com",
+      "description": "Woah"
+    }
+  ],
+  "Public profiles": [
+    {
+      "name": "Personal Website",
+      "link": "https://ojaswa.me"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/ojaswa1942"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/ojaswa23/"
+    },
+    {
+      "name": "NPM",
+      "link": "https://www.npmjs.com/settings/ojaswa1942/packages"
+    },
+    {
+      "name": "Email",
+      "link": "ojaswa1942@gmail.com"
+    }
+  ]
+}
