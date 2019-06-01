@@ -1,6 +1,20 @@
 const box = require("./box.json");
 const chalk = require("chalk");
 
+String.prototype.centerJustify = function( length, char ) {
+    var i=0;
+  var str= this;
+  var toggle= true;
+    while ( i + this.length < length ) {
+      i++;
+    if(toggle)
+      str = str+ char;
+    else
+      str = char+str;
+    toggle = !toggle;
+    }
+    return str;
+}
 
 const dividerObject =function(num, defaultColor, back) {
   this.length = num;
@@ -40,9 +54,7 @@ const dividerObject =function(num, defaultColor, back) {
   };
   this.containString = (string, color) => {
     return (
-      back(chalk[`${this.color}`](vertical) +
-      color(string.padEnd(this.length)) +
-      chalk[`${this.color}`](vertical)
+      back(color(string.centerJustify(this.length+2, ' '))
     ));
   };
 };

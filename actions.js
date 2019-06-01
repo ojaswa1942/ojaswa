@@ -3,11 +3,13 @@ const chalk = require('chalk');
 const {introductionQuestions, exitBack, resumeList} = require('./assets/questions.js')
 const dividerConstructor = require("./assets/divider.js");
 
-const back = chalk.bgRgb(135,135,135);
+const back = chalk.bgRgb(58,58,58);
+const title = chalk.bold.rgb(245, 229, 27);
+const response = chalk.rgb(255,99,71);
+//Used functions to calculate node
+const widthOfTerminal = () => process.stdout.columns;
+const divider = () => new dividerConstructor(widthOfTerminal()-2, "white", back);
 
-const divider = new dividerConstructor(80, "green", back);
-const title = chalk.bold.yellow;
-const response = chalk.blue;
 
 const introduction = async (inquirer) =>{
   console.log("Hello, thanks for visiting..");
@@ -43,26 +45,26 @@ const handleResume = (inquirer, resume) => {
     }
     var option = answer.resumeOptions;
 
-    divider.printTop();
+    divider().printTop();
 
     resume[`${option}`].forEach((info, ind) => {
       if (typeof info === "string") {
-        console.log(divider.containString(`  ${info}`, response));
+        console.log(divider().containString(`  ${info}`, response));
       } else {
         Object.values(info).forEach((value, ind) => {
           if (ind > 1) {
-            console.log(divider.containString(`${value}`, response));
+            console.log(divider().containString(`${value}`, response));
           } else if (ind == 1) {
-            console.log(divider.containString(`${value}`, chalk.cyan.bold));
+            console.log(divider().containString(`${value}`, chalk.cyan.bold));
           } else {
-            console.log(divider.containString(`${value.padEnd(38)}`, title));
+            console.log(divider().containString(`${value}`, title));
           }
         });
-        ind !== resume[`${option}`].length - 1 && divider.printLine();
+        ind !== resume[`${option}`].length - 1 && divider().printLine();
       }
     });
 
-    divider.printBottom();
+    divider().printBottom();
 
     inquirer.prompt(exitBack)
     .then(choice => {

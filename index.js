@@ -6,8 +6,7 @@ const {introduction, handleResume} = require("./actions.js");
 
 const main = async () => {
   console.clear();
-  // await introduction(inquirer);
+  await introduction(inquirer);
   await handleResume(inquirer, resume);
 };
-
 main();
