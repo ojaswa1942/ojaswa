@@ -22,6 +22,30 @@ const introductionQuestions = [
   }
 ];
 
+const exitBack = {
+  type: "list",
+  name: "exitOrBack",
+  message: "Go back or Exit?",
+  choices: ["Back", "Exit"]
+};
+
+const exitCheck = {
+  type: "confirm",
+  name: "confirmExit",
+  message: "Are you sure?",
+  default: true
+}
+
+const resumeList = (resume) => ({
+  type: "list",
+  name: "resumeOptions",
+  message: "What do you want to know about me?",
+  choices: [...Object.keys(resume), "Exit"]
+});
+
 module.exports = {
-	introductionQuestions
+	introductionQuestions,
+	exitBack,
+	resumeList,
+  exitCheck
 }

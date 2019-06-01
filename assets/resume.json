@@ -2,15 +2,52 @@
   "Experience": [
     {
       "company": "MageHost",
-      "title": "DevOps Engineering - Intern",
+      "title": "DevOps Engineer - Intern",
       "location": "Delhi",
-      "years": "April 2019 - till now"
-    }
+      "years": "April 2019 - Present"
+    },
+    {
+      "company": "Kirana",
+      "title": "Web Development Intern",
+      "years": "Oct 2018 - Dec 2018"
+    },
+    {
+      "company": "Speech Markers Pvt. Ltd.",
+      "title": "Data Collection And Validation",
+      "location": "Pune",
+      "years": "Jan 2018"
+    }, 
+    {
+      "company": "Shaastra Automation LLP",
+      "title": "Content Development",
+      "location": "Gwalior",
+      "years": "Aug 2017 - Nov 2017"
+    }, 
+    {
+      "company": "R.I.C.E. Computers",
+      "title": "Software Testing",
+      "location": "Indore",
+      "years": "May 2015 - Jun 2015"
+    }  
   ],
   "Education": [
     {
+      "Level": "Integrated M.Tech in Information Technology",
+      "Insti": "IIIT Gwalior",
+      "Passing": "2017-2022",
+      "Percentage": "7.3 CGPA (Should it matter?)"
+    },
+    {
+      "Level": "Class 12th",
+      "Passing": "2016",
+      "Insti": "St. Paul's Convent Sr. Sec. School",
+      "Percentage": "91%"
+    },
+    {
       "Level": "Class 10th",
-      "Percentage": "Let's not talk about it"
+      "Passing": "2014",
+      "Insti": "St. Paul's Convent Sr. Sec. School",
+      "Percentage": "80%"
     }
   ],
   "Tech stack": [

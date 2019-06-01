@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "ojaswa": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ojaswa1942/ojaswa.git"
@@ -19,9 +22,10 @@
   "bugs": {
     "url": "https://github.com/ojaswa1942/ojaswa/issues"
   },
-  "homepage": "https://github.com/ojaswa1942/ojaswa#readme",
+  "homepage": "https://ojaswa.me",
   "dependencies": {
     "chalk": "^2.4.2",
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.3.1",
+    "node-fetch": "^2.6.0"
   }
 }
