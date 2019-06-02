@@ -50,35 +50,86 @@
       "Percentage": "80%"
     }
   ],
-  "Tech stack": [
+  "Skills": [
     {
       "Skill": "Frontend",
-      "Frameworks": "React.js/ Angularjs"
+      "Frameworks": "React, React Native"
     },
     {
-      "Skill": "Backend",
-      "Frameworks": "Node.js, GraphQl, Firebase, Flask"
+      "Skill": "The Server Side",
+      "Frameworks": "Node.js, Flask, GraphQL, ElasticSearch"
     },
     {
       "Skill": "Databases",
-      "Frameworks": "MongoDB, Firebase, Sql"
+      "Frameworks": "MongoDB, Firebase, SQL, Redis"
     },
     {
-      "Skill": "Ops",
-      "Frameworks": "Lalala"
+      "Skill": "Ops and Testing",
+      "Frameworks": "Docker, Jenkins, Redis, Jest, Puppeteer, Nginx, AWS, GCloud"
+    },
+    {
+      "Skill": "Rest of the world",
+      "Frameworks": "Blockchain(IPFS, IPNS), Supervised Learning"
+    },
+    {
+      "Skill": "Languages",
+      "Frameworks": "Bash, C/C++, Javascript, Python, Octave, Java"
     }
   ],
   "Achievments": [
     {
-      "name": "Lol",
-      "description": "Just Kidding"
+      "name": "Winner, Hackathon",
+      "description": "Winner in 'Hackathon 2019', held at IIIT Gwalior"
+    },
+    {
+      "name": "Finalist, Hackathon",
+      "description": "Finalist in 'HackNSUT 19', held at NSUT Delhi"
+    },
+    {
+      "mame": "..Coming Soon",
+      "description": "Hope 100"
     }
   ],
   "Projects": [
     {
-      "name": "Test",
-      "link": "mmm.com",
-      "description": "Woah"
+      "name": "VoteNet",
+      "link": "https://votenet.premsarswat.me (requires hardware)",
+      "description": "VoteNet is a secure full-stack system to facilitate remote voting."
+    },
+    {
+      "name": "Infotsav'19",
+      "link": "https://2019.infotsav.in",
+      "description": "Website and dev-ops for Central India's largest technical fest, Infotsav"
+    },
+    {
+      "name": "Trimlink",
+      "link": "https://trimlink.herokuapp.com/",
+      "description": "A URL-Shortening web service like goo.gl and bit.ly."
+    },
+    {
+      "name": "HackerNews-Search",
+      "link": "https://hn.ojaswa.me/",
+      "description": "Recreation of the original Hacker News Search site using ReactJs & HNSearch API."
+    },
+    {
+      "name": "Snake Game",
+      "link": "https://github.ojaswa.me/Snake-Game",
+      "description": "A self-made version of the classic snake game using Vanilla JS."
+    },
+    {
+      "name": "Face Recognition Web App",
+      "link": "https://hacknsut.premsarswat.me/",
+      "description": "A full-stack web application for face detection in an images."
+    },
+    {
+      "name": "Bank Management System",
+      "link": "N/A",
+      "description": "A desktop application facilitating bank management operations"
+    },
+    {
+      "name": "HealthHub",
+      "link": "https://hacknsut.premsarswat.me/",
+      "description": "HealthHub facilitates secure storage and anytime access of health reports."
     }
   ],
   "Public profiles": [
@@ -96,7 +147,7 @@
     },
     {
       "name": "NPM",
-      "link": "https://www.npmjs.com/settings/ojaswa1942/packages"
+      "link": "https://www.npmjs.com/~ojaswa1942"
     },
     {
       "name": "Email",
