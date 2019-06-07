@@ -93,7 +93,7 @@
   "Projects": [
     {
       "name": "VoteNet",
-      "link": "https://votenet.premsarswat.me (requires hardware)",
+      "link": "https://votenet.ojaswa.me (requires hardware)",
       "description": "VoteNet is a secure full-stack system to facilitate remote voting."
     },
     {
@@ -128,7 +128,7 @@
     },
     {
       "name": "HealthHub",
-      "link": "https://hacknsut.premsarswat.me/",
+      "link": "https://healthhub.ojaswa.me/",
       "description": "HealthHub facilitates secure storage and anytime access of health reports."
     }
   ],
