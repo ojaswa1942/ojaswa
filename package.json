@@ -1,11 +1,8 @@
 {
   "name": "ojaswa",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Resume: Ojaswa Sharma",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@ojaswa1942"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
