@@ -1,9 +1,19 @@
 {
   "Experience": [
     {
+      "company": "WebScoot",
+      "title": "DevOps Engineer - Intern",
+      "years": "March 2020 - Present"
+    },
+    {
+      "company": "Privado",
+      "title": "Frontend Development Intern",
+      "years": "May 2020 - July 2020"
+    },
+    {
       "company": "MageHost",
       "title": "DevOps Engineer - Intern",
-      "location": "Delhi",
+      "location": "New Delhi",
       "years": "April 2019 - Sept 2019"
     },
     {
@@ -22,20 +32,14 @@
       "title": "Content Development",
       "location": "Gwalior",
       "years": "Aug 2017 - Nov 2017"
-    }, 
-    {
-      "company": "R.I.C.E. Computers",
-      "title": "Software Testing",
-      "location": "Indore",
-      "years": "May 2015 - Jun 2015"
-    }  
+    }
   ],
   "Education": [
     {
       "Level": "Integrated M.Tech in Information Technology",
       "Insti": "IIIT Gwalior",
       "Passing": "2017-2022",
-      "Percentage": "7.3 CGPA (Should it matter?)"
+      "Percentage": "7.7 CGPA (Should it matter?)"
     },
     {
       "Level": "Class 12th",
@@ -52,48 +56,57 @@
   ],
   "Skills": [
     {
-      "Skill": "Frontend",
-      "Frameworks": "React, React Native"
+      "Skill": "Front End",
+      "Frameworks": "React, Redux, React Native, HTML/CSS"
     },
     {
       "Skill": "The Server Side",
-      "Frameworks": "Node.js, Flask, GraphQL, ElasticSearch"
+      "Frameworks": "Node.js, Express, Caddy, Flask, GraphQL, ElasticSearch"
     },
     {
       "Skill": "Databases",
-      "Frameworks": "MongoDB, Firebase, SQL, Redis"
+      "Frameworks": "MongoDB, SQL (PostgreSQL, MySQL), Firebase, Redis"
     },
     {
       "Skill": "Ops and Testing",
-      "Frameworks": "Docker, Jenkins, Redis, Jest, Puppeteer, Nginx, AWS, GCloud"
+      "Frameworks": "CI/CD, Docker, Kubernetes, Jest, Puppeteer, Redis, Nginx, AWS, GCloud"
     },
     {
       "Skill": "Rest of the world",
-      "Frameworks": "Blockchain(IPFS, IPNS), Supervised Learning"
+      "Frameworks": "Blockchain (IPFS, IPNS), Supervised Learning, Data Structures and Algorithms"
     },
     {
       "Skill": "Languages",
-      "Frameworks": "Bash, C/C++, Javascript, Python, Octave, Java"
+      "Frameworks": "JavaScript, GoLang, C, C++, Bash, Python, Octave, Java"
     }
   ],
-  "Achievments": [
+  "Achievements": [
     {
-      "name": "Winner, Hackathon",
-      "description": "Winner in 'Hackathon 2019', held at IIIT Gwalior"
+      "name": "Finalist, Smart India Hackathon",
+      "description": "2020, Software Edition"
     },
     {
-      "name": "Finalist, Hackathon",
-      "description": "Finalist in 'HackNSUT 19', held at NSUT Delhi"
+      "name": "Winner, AASF Hackathon",
+      "description": "2019, Gwalior"
     },
     {
-      "mame": "..Coming Soon",
-      "description": "Hope 100"
+      "name": "Runner Up, HackNSUT",
+      "description": "2019, New Delhi"
+    },
+    {
+      "name": "Runner Up, AASF Programming Contest",
+      "description": "2018, Gwalior"
     }
   ],
   "Projects": [
     {
+      "name": "Andhra Pradesh Central Funds Portal",
+      "link": "https://github.com/ojaswa1942/KB222_Lost-1-3",
+      "description": "Seamless disbursal & communication platform for streamlined governance"
+    },
+    {
       "name": "VoteNet",
-      "link": "https://votenet.ojaswa.me (requires hardware)",
+      "link": "https://github.com/ojaswa1942/hackAASF-VoteNet",
       "description": "VoteNet is a secure full-stack system to facilitate remote voting."
     },
     {
@@ -102,40 +115,51 @@
       "description": "Website and dev-ops for Central India's largest technical fest, Infotsav"
     },
     {
-      "name": "Trimlink",
-      "link": "https://trimlink.herokuapp.com/",
-      "description": "A URL-Shortening web service like goo.gl and bit.ly."
-    },
-    {
-      "name": "HackerNews-Search",
-      "link": "https://hn.ojaswa.me/",
-      "description": "Recreation of the original Hacker News Search site using ReactJs & HNSearch API."
-    },
-    {
-      "name": "Snake Game",
-      "link": "https://github.ojaswa.me/Snake-Game",
-      "description": "A self-made version of the classic snake game using Vanilla JS."
-    },
-    {
-      "name": "Face Recognition Web App",
-      "link": "https://hacknsut.premsarswat.me/",
-      "description": "A full-stack web application for face detection in an images."
-    },
-    {
-      "name": "Bank Management System",
-      "link": "N/A",
-      "description": "A desktop application facilitating bank management operations"
-    },
-    {
       "name": "HealthHub",
-      "link": "https://healthhub.ojaswa.me/",
+      "link": "https://github.com/ojaswa1942/hackNSUT-HealthHub",
       "description": "HealthHub facilitates secure storage and anytime access of health reports."
+    },
+    {
+      "name": "URL Shortener",
+      "link": "https://url.ojaswa.com",
+      "description": "A service to shorten urls, like goo.gl and bit.ly."
+    },
+    {
+      "name": "50+ public repositories",
+      "link": "https://github.com/ojaswa1942",
+      "description": "Open to contributions & discussions"
     }
   ],
-  "Public profiles": [
+  "Positions of Responsibility": [
+    {
+      "post": "Coordinator, Aurora '20",
+      "description": "Central India's Largest Cultural Festival"
+    },
+    {
+      "post": "Core Team, AASF Dev Circle",
+      "description": "AASF Dev Circle conducts talks, workshops and contests in and around the city"
+    },
+    {
+      "post": "Web Developer, Infotsav '19",
+      "description": "Annual National Technical Festival"
+    },
+    {
+      "post": "Executive, Rotaract Society",
+      "description": "Rotaract Society of Youth, IIIT Gwalior"
+    },
+    {
+      "post": "Event Executive, Aurora '18",
+      "description": "Central India's Largest Cultural Festival"
+    },
+    {
+      "post": "PR Head, MOM '18",
+      "description": "National Technical Fair"
+    }
+  ],
+  "Public Profiles": [
     {
       "name": "Personal Website",
-      "link": "https://ojaswa.me"
+      "link": "https://ojaswa.com"
     },
     {
       "name": "Github",
@@ -150,8 +174,12 @@
       "link": "https://www.npmjs.com/~ojaswa1942"
     },
     {
+      "name": "HackerEarth",
+      "link": "https://www.hackerearth.com/@ojaswa1942"
+    },
+    {
       "name": "Email",
-      "link": "ojaswa1942@gmail.com"
+      "link": "hello@ojaswa.com, ojaswa1942@gmail.com"
     }
   ]
 }

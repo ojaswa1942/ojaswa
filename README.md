@@ -29,5 +29,5 @@ Resume as a NPM Package
 
 - Clone the git repo: `git clone https://github.com/ojaswa1942/ojaswa`
 - Go to project directory: `cd ojaswa`
-- Install npm modules: `npm install`
+- Install node modules: `yarn install`
 - Run: `node index.js`

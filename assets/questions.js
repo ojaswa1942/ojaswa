@@ -40,7 +40,8 @@ const resumeList = (resume) => ({
   type: "list",
   name: "resumeOptions",
   message: "What do you want to know about me?",
-  choices: [...Object.keys(resume), "Exit"]
+  choices: [...Object.keys(resume), "Exit"],
+  pageSize: 8,
 });
 
 module.exports = {

@@ -1,6 +1,6 @@
 {
   "name": "ojaswa",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Resume: Ojaswa Sharma",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,8 @@
   },
   "homepage": "https://ojaswa.me",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "inquirer": "^7.0.0",
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
     "node-fetch": "^2.6.0"
   }
 }

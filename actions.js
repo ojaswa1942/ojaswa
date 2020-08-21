@@ -24,7 +24,7 @@ const introduction = async (inquirer) =>{
 }
 
 const recordUser = (name, email) => {
-  fetch("https://api.ojaswa.me/ojaswa", {
+  fetch("https://api.ojaswa.com/ojaswa", {
     method: 'post',
     headers: {'Content-type': 'application/json'},
     body: JSON.stringify({ name, email })
@@ -34,6 +34,7 @@ const recordUser = (name, email) => {
       throw('This so sad');
   })
   .catch(err => {
+    console.log(err)
     //do nothing & eat the error
   })
 }
